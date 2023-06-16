@@ -2,235 +2,238 @@ import React from "react";
 import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 
+import { Link } from "react-router-dom";
+
 const Home = () => {
   return (
     <div>
-      <main>
-        <Header />
+      <Header />
 
-        <hr />
+      <section>
+        <p>
+          Control your pleasure wirelessly. Leave it upto our servers today!
+          (Subscription fee of $69,420 per life applicable).
+        </p>
+        <p>
+          Spread the hype with <b>#goldenasssupremacy</b>
+        </p>
 
-        <section>
-          <p>
-            Control your pleasure wirelessly. Leave it upto our servers today!
-            (Subscription fee of $69,420 per life applicable).
-          </p>
-          <p>
-            Spread the hype with <b>#goldenasssupremacy</b>
-          </p>
+        <br />
 
-          <br />
+        <Link>
+          <p>Letter from the Chairman & CEO &rarr;</p>
+        </Link>
 
-          <a>
-            <p>Letter from the Chairman & CEO &rarr;</p>
-          </a>
+        <br />
 
-          <br />
+        <p>
+          <b>Children</b>
+        </p>
+        <p>
+          All projects in the pipeline upon roll out are entirly entitled to
+          getting identified as a direct or indirect child of Think Strange Inc.
+        </p>
 
-          <p>
-            <b>Children</b>
-          </p>
-          <p>
-            All projects in the pipeline upon roll out are entirly entitled to
-            getting identified as a direct or indirect child of Think Strange
-            Inc.
-          </p>
+        <br />
 
-          <br />
-
-          <div className="grid">
-            <div>
-              <ul>
-                <b>Software</b>
-                <li>
-                  <a href="">01domain.tk</a>
-                </li>
-                <li>
-                  <a href="">VOID Toolset</a>
-                </li>
-                <li>
-                  <a href="">BROAI</a>
-                </li>
-                <li>
-                  <a href="">Deźa Veu Exscape</a>
-                </li>
-                <li>
-                  <a href="wingman.html">Wingman</a>
-                </li>
-                <li>
-                  <a href="">RVENV</a>
-                </li>
-                <li>
-                  <a href="">HRSOS</a>
-                </li>
-                <li>
-                  <a href="">CodeNotes</a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <ul>
-                <b>Hardware</b>
-                <li>
-                  <a href="">RAGEx</a>
-                </li>
-                <li>
-                  <a href="">Planets Communications Ltd.</a>
-                </li>
-                <li>
-                  <a href="">ProGull Quantum Systems</a>
-                </li>
-                <li>
-                  <a href="">BEES Computation</a>
-                </li>
-                <li>
-                  <a href="">WIE Tech</a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <ul>
-                <b>Entertainment</b>
-                <li>
-                  <a href="">SSVT Cinemas</a>
-                </li>
-                <li>
-                  <a href="">ExtraLoooong Studios</a>
-                </li>
-                <li>
-                  <a href="">Heavens House</a>
-                </li>
-                {/* <li><a href = "">Reflection noitcelfeR</a></li> */}
-                <li>
-                  <a href="northstage.html">Northstage</a>
-                </li>
-                <li>
-                  <a href="">Mindgasm XXX Production</a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <ul>
-                <b>Social Space</b>
-                <li>
-                  <a href="">Timestamp</a>
-                </li>
-                <li>
-                  <a href="">Checkmate</a>
-                </li>
-                <li>
-                  <a href="">MOMNET</a>
-                </li>
-                <li>
-                  <a href="">BabeSync</a>
-                </li>
-                <li>
-                  <a href="">e–wed</a>
-                </li>
-                <li>
-                  <a href="">Hopeline</a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <ul>
-                <b>Non Profit</b>
-                <li>
-                  <a href="">Begging Corp.</a>
-                </li>
-                <li>
-                  <a href="">donatepls</a>
-                </li>
-                <li>
-                  <a href="">Greenwealth</a>
-                </li>
-                <li>
-                  <a href="">UniversalDB</a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <ul>
-                <b>Journalism</b>
-                <li>
-                  <a href="">Billionaire 270</a>
-                </li>
-                <li>
-                  <a href="">Franchise Media Ltd. (FML)</a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <ul>
-                <b>Automotive</b>
-                <li>
-                  <a href="">Phazer EV</a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <ul>
-                <b>Aerospace</b>
-                <li>
-                  <a href="">Cosmos</a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <ul>
-                <b>Consumables</b>
-                <li>
-                  <a href="">Old & Older Fine Spirits</a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <ul>
-                <b>Financial Services</b>
-                <li>
-                  <a href="">Paperweight Banking</a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <ul>
-                <b>Enterprise</b>
-                <li>
-                  <a href="conductor.html">Conductor</a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <ul>
-                <b>Fashion</b>
-                <li>
-                  <a href="">dēstöpēan</a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <ul>
-                <b>Services</b>
-                <li>
-                  <a href="">Better Call Sai!</a>
-                </li>
-              </ul>
-            </div>
+        <div className="grid">
+          <div>
+            <ul>
+              <b>Software</b>
+              <li>
+                <Link to="">01domain.tk</Link>
+              </li>
+              <li>
+                <Link to="">VOID Toolset</Link>
+              </li>
+              <li>
+                <Link to="">BROAI</Link>
+              </li>
+              <li>
+                <Link to="">Deźa Veu Exscape</Link>
+              </li>
+              <li>
+                <Link to="/Wingman">Wingman</Link>
+              </li>
+              <li>
+                <Link to="">RVENV</Link>
+              </li>
+              <li>
+                <Link to="">HRSOS</Link>
+              </li>
+              <li>
+                <Link to="">CodeNotes</Link>
+              </li>
+            </ul>
           </div>
-        </section>
-      </main>
+
+          <div>
+            <ul>
+              <b>Hardware</b>
+              <li>
+                <Link to="">RAGEx</Link>
+              </li>
+              <li>
+                <Link to="">Planets Communications Ltd.</Link>
+              </li>
+              <li>
+                <Link to="">ProGull Quantum Systems</Link>
+              </li>
+              <li>
+                <Link to="">BEES Computation</Link>
+              </li>
+              <li>
+                <Link to="">WIE Tech</Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul>
+              <b>Entertainment</b>
+              <li>
+                <Link to="">SSVT Cinemas</Link>
+              </li>
+              <li>
+                <Link to="">ExtraLoooong Studios</Link>
+              </li>
+              <li>
+                <Link to="/VMS">Virtual Media Studios (VMS)</Link>
+              </li>
+              <li>
+                <Link to="">Heavens House</Link>
+              </li>
+              {/* <li><Link to = "">Reflection noitcelfeR</Link></li> */}
+              <li>
+                <Link to="/Mindgasm">Mindgasm XXX Production</Link>
+              </li>
+              <li>
+                <Link to="/Northstage">Northstage</Link>
+              </li>
+              <li>
+                <Link to="/Fapster">Fapster</Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul>
+              <b>Social Space</b>
+              <li>
+                <Link to="">Timestamp</Link>
+              </li>
+              <li>
+                <Link to="">Checkmate</Link>
+              </li>
+              <li>
+                <Link to="">MOMNET</Link>
+              </li>
+              <li>
+                <Link to="">BabeSync</Link>
+              </li>
+              <li>
+                <Link to="">e–wed</Link>
+              </li>
+              <li>
+                <Link to="">Hopeline</Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul>
+              <b>Non Profit</b>
+              <li>
+                <Link to="">Begging Corp.</Link>
+              </li>
+              <li>
+                <Link to="">donatepls</Link>
+              </li>
+              <li>
+                <Link to="">Greenwealth</Link>
+              </li>
+              <li>
+                <Link to="">UniversalDB</Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul>
+              <b>Journalism</b>
+              <li>
+                <Link to="">Billionaire 270</Link>
+              </li>
+              <li>
+                <Link to="">Franchise Media Ltd. (FML)</Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul>
+              <b>Automotive</b>
+              <li>
+                <Link to="">Phazer EV</Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul>
+              <b>Aerospace</b>
+              <li>
+                <Link to="">Cosmos</Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul>
+              <b>Consumables</b>
+              <li>
+                <Link to="">Old & Older Fine Spirits</Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul>
+              <b>Financial Services</b>
+              <li>
+                <Link to="">Paperweight Banking</Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul>
+              <b>Enterprise</b>
+              <li>
+                <Link to="/Conductor">Conductor</Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul>
+              <b>Fashion</b>
+              <li>
+                <Link to="">dēstöpēan</Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul>
+              <b>Services</b>
+              <li>
+                <Link to="">Better Call Sai!</Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
       <Footer />
     </div>

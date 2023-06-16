@@ -1,14 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header>
-      <h1>
-        <a href="index.html" id="headertext">
-          Think Strange Inc.
-        </a>
-      </h1>
-    </header>
+    <div>
+      <header>
+        <h1>
+          <Link to = "/" id="headertext">
+            Think Strange Inc.
+          </Link>
+        </h1>
+      </header>
+      <hr />
+    </div>
   );
 };
 

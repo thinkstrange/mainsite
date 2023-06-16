@@ -1,7 +1,3 @@
-html {
-    min-height: 100%;
-}
-
 * {
     line-height: 1.5;
 }
@@ -98,16 +94,13 @@ hr {
     row-gap: 30px;
 }
 
-main {
-    flex: 1 0 auto;
-}
-
-#sticker {
-    flex-shrink: 0;
-    width: 100%;
-}
-
 #theme:hover {
     cursor: pointer;
     text-decoration: underline;
 }
+
+/* #sticker {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} */
