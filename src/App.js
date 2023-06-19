@@ -12,9 +12,9 @@ import Conductor from './pages/Conductor'
 const App = () => {
   return (
     <div>
-        <BrowserRouter>
+        <BrowserRouter basename = "/mainsite">
             <Routes>
-                <Route path = "/" element = {<Home/>} />
+                <Route path = "/mainsite" element = {<Home/>} />
                 <Route path = "/Fapster" element = {<Fapster/>} />
                 <Route path = "/Wingman" element = {<Wingman/>} />
                 <Route path = "/Northstage" element = {<Northstage/>} />
