@@ -1,5 +1,4 @@
-iniitilize gh pages / gh build
-footer links / everyother link
+footer links
 darktheme
 subpages
 
@@ -9,3 +8,4 @@ dynamicity
 footer issue
 letter PDF
 favicon
+iniitilize gh pages / gh build
