@@ -12,7 +12,7 @@ const Northstage = () => {
         <p>AAA Title, Game studio</p>
         <br/>
 
-        <div class="grid">
+        <div className="grid">
 
             <div>
                 <ul>

@@ -16,18 +16,21 @@ img {
     border: 1px solid black;
 }
 
-header, footer {
-    margin: 15px auto;
-    width: 800px;
-}
 
 #headertext:hover {
     text-decoration: none;
 }
 
+header, footer {
+    margin: 15px auto;
+    width: 800px;
+    padding: 0px 20px;
+}
+
 section {
     margin: 30px auto 100px auto;
     width: 800px;
+    padding: 0px 20px;
 }
 
 h1 {
@@ -76,10 +79,15 @@ a, a:link {
     text-decoration: none;
 }
 
+a:visited {
+    color: red;
+}
+
 a:hover {
-    cursor: pointer;
+    /* cursor: pointer; */
     text-decoration: underline;
 }
+
 
 hr {
     height: 1px;
@@ -90,7 +98,7 @@ hr {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 235px);
+    grid-template-columns: repeat(3, 1fr);
     row-gap: 30px;
 }
 
@@ -104,3 +112,35 @@ hr {
     bottom: 0;
     width: 100%;
 } */
+
+@media only screen and (max-width: 550px) {
+    header, footer {
+        margin: 15px auto;
+        padding: 0px 10px;
+        width: fit-content;
+    }
+    
+    section {
+        margin: 30px auto 100px auto;
+        padding: 0px 10px;
+        width: fit-content;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 0.5fr);
+    }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 850px) {
+    header, footer {
+        margin: 15px auto;
+        padding: 0px 10px;
+        width: fit-content;
+    }
+    
+    section {
+        margin: 30px auto 100px auto;
+        padding: 0px 10px;
+        width: fit-content;
+    }
+}
