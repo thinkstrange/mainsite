@@ -1,11 +1,11 @@
 iniitilize gh pages / gh build
-letter PDF
-footer links
+footer links / everyother link
 darktheme
-favicon
 subpages
 
 completed:
 
 dynamicity
 footer issue
+letter PDF
+favicon
