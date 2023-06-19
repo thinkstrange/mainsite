@@ -2,6 +2,8 @@ import React from "react";
 import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 
+import Letter from "../assets/Letter.pdf"
+
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -12,7 +14,7 @@ const Home = () => {
       <section>
         <p>
           Control your pleasure wirelessly. Leave it upto our servers today!
-          (Subscription fee of $69,420 per life applicable).
+          (Subscription fee of $69,420 per life per soul applicable).
         </p>
         <p>
           Spread the hype with <b>#goldenasssupremacy</b>
@@ -20,9 +22,9 @@ const Home = () => {
 
         <br />
 
-        <Link>
+        <a href = {Letter} target={"_blank"} rel = "noreferrer">
           <p>Letter from the Chairman & CEO &rarr;</p>
-        </Link>
+        </a>
 
         <br />
 

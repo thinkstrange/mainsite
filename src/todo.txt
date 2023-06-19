@@ -1,13 +1,11 @@
-initialize git
-iniitilize gh pages
+iniitilize gh pages / gh build
+letter PDF
+footer links
+darktheme
+favicon
+subpages
 
-sub pages for each page
+completed:
 
 dynamicity
 footer issue
-
-letter PDF
-
-footer links
-
-darktheme
