@@ -106,15 +106,15 @@ const Home = () => {
                 <Link to="">Heavens House</Link>
               </li>
               {/* <li><Link to = "">Reflection noitcelfeR</Link></li> */}
-              <li>
+              {/* <li>
                 <Link to="/Mindgasm">Mindgasm XXX Production</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/Northstage">Northstage</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/Fapster">Fapster</Link>
-              </li>
+              </li> */}
             </ul>
           </div>
 
